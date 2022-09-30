@@ -1,0 +1,33 @@
+{
+  "name": "prismapixel-studios-theme",
+  "displayName": "PrismaPixel Studios",
+  "description": "The official PrismaPixel Studios development team theme for VS Code",
+  "version": "0.0.1",
+	"publisher": "PrismaPixel-Studios",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/PrismaPixelStudios/PrismaPixel_Studios-vscode_theme"
+	},
+	"keywords": [
+		"dark theme",
+		"prismapixel studios",
+		"syntax highlighting",
+		"theme",
+		"web development"
+	],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "PrismaPixel Studios",
+        "uiTheme": "vs-dark",
+        "path": "./themes/prismapixel_studios_dark-color-theme.json"
+      }
+    ]
+  }
+}
